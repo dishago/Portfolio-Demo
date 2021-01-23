@@ -15,6 +15,8 @@ npm install && npm start
 ## Deployment
 
 After signing up on Heroku, create a new app, and proceed to download Heroku CLI
+npm install heroku
+heroku plugins:install heroku-builds
 
 ```bash
 heroku login -i
